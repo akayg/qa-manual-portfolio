@@ -1,43 +1,35 @@
-# QA Manual Portfolio 🧠
+# 🧠 QA Manual Portfolio
 
-Welcome to my QA Manual Testing Portfolio! This repository highlights my hands‑on experience with manual testing, including test planning, test case design, bug reporting, and exploratory testing using real-world scenarios.
+Welcome to my **QA Manual Testing Portfolio**! This repository highlights my hands-on experience with manual testing — from test planning to bug reporting — using real-world scenarios and industry best practices.
 
 ---
+## 📌 Repository Overview
 
-## 🛠 Project Overview
+This repository is a curated **QA Manual Testing Portfolio** demonstrating my hands-on skills across key QA domains. It includes:
 
-This portfolio demonstrates:
+- Structured manual test cases
+- Exploratory testing session notes
+- Bug reports using Jira-style tracking
+- REST API testing using both **Postman** and **Python + Pytest**
 
-- **Test Planning & Test Cases**  
-  Structured test plans and cases based on user stories and requirements for sample web/mobile apps.
-
-- **Bug Reporting**  
-  Real bug reports (with detailed steps, severity, screenshots/videos) created during exploratory testing.
-
-- **Exploratory Testing Reports**  
-  Session-based notes and exploratory tours across various apps to uncover edge cases.
-
-- **Test Reports & Metrics**  
-  A sample test summary report outlining executed cases, pass/fail rates, and defect counts.
-
-- **API Testing (Postman collections)**  
-  Basic REST API validation flows to confirm endpoints, status codes, and payloads are correct.
+The portfolio captures real-world testing scenarios for web applications and public APIs, covering the entire QA lifecycle — from test planning and execution to defect reporting and final documentation. It reflects a thorough understanding of QA methodologies and attention to detail in both functional and exploratory testing.
 
 ---
 
 ## 📁 Repository Structure
 
-qa-manual-portfolio/
+```plaintext
 qa-manual-portfolio/
 ├── API_Testing_with_Python/
 │   ├── __pycache__/
 │   ├── Basic_POST_Login_Example.py
 │   └── Login_API_Py_test.py
+│
 ├── Postman_API_Testing/
 │   ├── AG_001_SpecialChar_In_Name_(Agify_API)_Postman.png
 │   ├── AG_002_NullReq_(Agify_API)_Postman.png
 │   ├── AG_003_Numbers_in_Name_(Agify_API)_Postman.png
-│   ├── AG_004_ValidName(Agify_API)_Testing_Postman_.png
+│   ├── AG_004_ValidName_(Agify_API)_Testing_Postman.png
 │   ├── OW_001_ValidData_(openweatherAPI).png
 │   ├── OW_002_InvalidData_(openweatherAPI).png
 │   ├── OW_003_NullData_(openweatherAPI).png
@@ -47,6 +39,7 @@ qa-manual-portfolio/
 │   ├── RQ001_Post_login_success_REQRES.png
 │   ├── RQ002_Post_missing_password_error_REQRES.png
 │   └── RQ003_Post_invalidEmail_REQRES.png
+│
 ├── demoblaze_ecommerce/
 │   ├── Jira(Tracking)/
 │   │   ├── BG_001.png
@@ -60,17 +53,18 @@ qa-manual-portfolio/
 │   ├── GWT_Get_When_Then_BugReport.md
 │   ├── Manual_testing_Result.md
 │   └── QA_Manual_Test_Case_Template.xlsx
+│
 ├── .gitattributes
 ├── .gitignore
 └── README.md
---
+```
 
 ---
 
 ## 🧑‍💻 Skills & Tools Demonstrated
 
 - Manual test case design (functional, boundary, exploratory)
-- Exploratory testing techniques and Session-Based Testing
+- Exploratory testing techniques and session-based testing
 - Structured bug report writing (steps, expected vs actual, severity, attachments)
 - Test documentation with clear metrics and reporting formats
 - Basic REST API testing using Postman
@@ -95,20 +89,11 @@ Recruiters and QA leads often expect portfolios from developers, but for QA engi
 - Plan and structure test work
 - Report defects clearly and reproducibly
 - Produce test coverage and summary metrics
-- Learn key QA strategies (exploratory, API, session-based testing) :contentReference[oaicite:1]{index=1}
+- Learn key QA strategies (exploratory, API, session-based testing)
 
 ---
 
-## 🎓 What’s Next?
 
-To expand this portfolio:
-
-- Add **test plans with traceability matrices**
-- Include **automated checks** (e.g., simple Selenium/Python or Robot Framework scripts)
-- Write a **blog post or medium article** about lessons learned :contentReference[oaicite:2]{index=2}
-- Include **metrics** like defect density or test execution rates
-
----
 
 ## ➕ Contributing & Feedback
 
