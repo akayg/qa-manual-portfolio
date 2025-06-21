@@ -27,14 +27,43 @@ This portfolio demonstrates:
 
 ## 📁 Repository Structure
 
-/
-├── test-plans/ # Project-based test plans and case documents
-├── bug-reports/ # Individual bug reports (with media and details)
-├── exploratory-sessions/ # Notes & session logs from exploratory tests
-├── api-testing/ # Postman collections and exported environments
-└── test-reports/ # Summary reports with pass/fail stats and observations
-
-
+qa-manual-portfolio/
+qa-manual-portfolio/
+├── API_Testing_with_Python/
+│   ├── __pycache__/
+│   ├── Basic_POST_Login_Example.py
+│   └── Login_API_Py_test.py
+├── Postman_API_Testing/
+│   ├── AG_001_SpecialChar_In_Name_(Agify_API)_Postman.png
+│   ├── AG_002_NullReq_(Agify_API)_Postman.png
+│   ├── AG_003_Numbers_in_Name_(Agify_API)_Postman.png
+│   ├── AG_004_ValidName(Agify_API)_Testing_Postman_.png
+│   ├── OW_001_ValidData_(openweatherAPI).png
+│   ├── OW_002_InvalidData_(openweatherAPI).png
+│   ├── OW_003_NullData_(openweatherAPI).png
+│   ├── OW_004_ValidData_imperial_(openweatherAPI).png
+│   ├── OW_005_Valid_Lon_Lat_(openweatherAPI).png
+│   ├── OW_006_Invalid_Lon_Lat_(openweatherAPI).png
+│   ├── RQ001_Post_login_success_REQRES.png
+│   ├── RQ002_Post_missing_password_error_REQRES.png
+│   └── RQ003_Post_invalidEmail_REQRES.png
+├── demoblaze_ecommerce/
+│   ├── Jira(Tracking)/
+│   │   ├── BG_001.png
+│   │   ├── BG_002.png
+│   │   ├── BG_003.png
+│   │   ├── BG_004.png
+│   │   ├── BG_005.png
+│   │   └── Jira_Bugs_Tracker.png
+│   ├── BUG_Report_BlazeStore.xlsx
+│   ├── Bug_Report.md
+│   ├── GWT_Get_When_Then_BugReport.md
+│   ├── Manual_testing_Result.md
+│   └── QA_Manual_Test_Case_Template.xlsx
+├── .gitattributes
+├── .gitignore
+└── README.md
+--
 
 ---
 
