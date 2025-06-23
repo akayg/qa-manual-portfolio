@@ -1,1 +1,13 @@
-venv
+# Ignore Python virtual environment
+venv/
+
+# Ignore compiled Python bytecode
+__pycache__/
+
+# Ignore Allure results and archive
+allure-results/
+allure-2.34.0.tgz
+
+# Ignore system-specific files
+*.log
+.DS_Store
