@@ -12,8 +12,8 @@ def test_multiplication():
 def test_division():
     assert 10/2==5
 
-def test_wrong_assertion():
-    assert 5+5==9 #this test will fail
+# def test_wrong_assertion():
+#     assert 5+5==9 #this test will fail
 
 
 

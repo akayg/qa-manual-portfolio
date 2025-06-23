@@ -19,8 +19,8 @@ def test_division(x, y, result):
     assert x / y == result
 
 
-@pytest.mark.parametrize("a, b, expected", [
-    (5, 5, 11),  # wrong on purpose
-])
-def test_failing_example(a, b, expected):
-    assert a + b == expected
+# @pytest.mark.parametrize("a, b, expected", [
+#     (5, 5, 11),  # wrong on purpose
+# ])
+# def test_failing_example(a, b, expected):
+#     assert a + b == expected
